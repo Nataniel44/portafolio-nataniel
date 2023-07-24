@@ -24,7 +24,7 @@ function App() {
       />
       <main style={themeStyles}>
         <section className="present">
-          <img src="./img/to4.png" alt="yo" />
+          <img src="./to4.png" alt="yo" />
           <div>
             <h1>
               Hi there, <br />
