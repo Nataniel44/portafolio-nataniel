@@ -1,0 +1,21 @@
+* {
+  margin: 0%;
+}
+header {
+  display: flex;
+  font-family: "Teko", sans-serif;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  border-bottom: solid 1px #222;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button-theme {
+}

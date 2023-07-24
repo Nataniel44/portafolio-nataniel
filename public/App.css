@@ -1,0 +1,51 @@
+#root {
+  margin: 0%;
+  padding: 0%;
+}
+h1 {
+  margin: 0%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.present {
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.span-name {
+  color: #646cff;
+}
+
+.present p {
+  font-family: "Teko", sans-serif;
+  font-size: 1.5em;
+}
+.present img {
+  border-radius: 100px;
+  height: 200px;
+  transform: rotate(-40deg);
+  border-style: ridge;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.button {
+  margin: 10px;
+}
+
+@media screen and (max-width: 540px) {
+  .present img {
+    display: none;
+  }
+  .present {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
