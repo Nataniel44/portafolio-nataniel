@@ -1,5 +1,5 @@
 // Header.jsx
-import "./cssCoponents/header.css";
+
 import "../public/cssCoponents/header.css";
 
 // eslint-disable-next-line react/prop-types
