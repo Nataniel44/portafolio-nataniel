@@ -27,7 +27,7 @@ function App() {
           <img src="src/img/to4.png" alt="yo" />
           <div>
             <h1>
-              Hi thereda, <br />
+              Hi there, <br />
               i´m <span className="span-name">Nataniel</span>
             </h1>
             <p>I want to be a full stack programmer.</p>
