@@ -1,6 +1,6 @@
 // Header.jsx
 
-import "../public/cssCoponents/header.css";
+import "./cssCoponents/header.css";
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ themeStyles, toggleTheme, isDarkTheme }) => {
