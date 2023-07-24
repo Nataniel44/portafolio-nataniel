@@ -17,10 +17,8 @@ a:hover {
 }
 
 body {
-  margin-bottom: env(
-    safe-area-inset-bottom
-  ); /* Agrega un margen al final del cuerpo para evitar superposiciones */
-  padding-bottom: 1px; /* Evita que el contenido se colapse con el margen en algunos dispositivos */
+  margin: 0%;
+  overflow: hidden;
 }
 
 button {
