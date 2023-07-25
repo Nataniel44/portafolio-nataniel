@@ -36,17 +36,26 @@ h1 {
 }
 .button {
   margin: 10px;
+  margin-left: 0%;
+  border-radius: 0%;
 }
 
 @media screen and (max-width: 540px) {
   .present img {
     display: none;
   }
+
   .present {
-    height: 100svh;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    max-width: 30%;
     text-align: center;
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+  .button {
+    margin-left: 10px;
   }
 }

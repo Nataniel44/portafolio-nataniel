@@ -30,7 +30,7 @@ function App() {
               Hi there, <br />
               i´m <span className="span-name">Nataniel</span>
             </h1>
-            <p>I want to be a full stack programmer.</p>
+            <p>Frontend developer.</p>
 
             <button className="button">PROJECTS</button>
 
