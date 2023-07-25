@@ -1,7 +1,9 @@
 const Proyects = () => {
   return (
     <>
-      <section></section>
+      <section>
+        <h1></h1>
+      </section>
     </>
   );
 };
